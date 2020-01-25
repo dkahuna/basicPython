@@ -1,4 +1,4 @@
-# basicPython
+# Python Shell
 
 <h1>Here will be the stepping stones of learning the language *"Python3"*</h1>
 
