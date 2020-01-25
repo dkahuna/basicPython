@@ -19,10 +19,19 @@ print(5 // 5) #returns 1 <-- which is an integer
 print(5 ** 5) #returns the power of; 3125
 print(25 % 2) #returns the remainder 1
 
+num = 88    #storing an integer
+num += 2   #this changes the value due to having the equal sign after the operation
+print(num)  #returns 90
+
 print("-----Strings-----")
 
-name = "Kahuna" #this is storing value
-print(name) #returns 'Kahuna'
+greeting = "Welcome!" #this is storing value
+print(greeting) #returns the stored value above
 
-age = input("How old are you? ") # this function prompts the user
-print("You are " + age + "year(s) old") # storing the user's input will give feedback
+name = input("What's your name? ") # this function prompts the user
+print("Hi " + name + "!")
+age = input("How old are you? ")
+print("You are " + age + " " + "year(s) old") # storing the user's input will give feedback
+
+# Lines 28 & 30 are examples of concatenating values, strings, etc.
+
