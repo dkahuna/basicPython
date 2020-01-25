@@ -40,6 +40,12 @@ print("-----Lists-----") #collections of data types
 food = ["Wings", "What-A-Burger", "Donatos", "Surf&Turf", "SoCal Taco"] #storing more than one
 print(food)
 print(food[1]) # counting of a list starts at zero not 1
+print(food[-2]) # start from right to left
 
 spanishLine = "Buenos dias, amigo."
 print(spanishLine.split(' ')) #this will break the string into a list due to space argument passed in
+
+# Calculating the area of a circle
+radius = input('Enter the radius of your circle (m): ')
+area = 3.142 * int(radius)**2  # int() function is used to convert the user's input from string to integer
+print('The area of your circle is:', area)
