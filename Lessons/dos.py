@@ -1,12 +1,21 @@
-# -- Continued from Pg. Uno (Format Method)
+print("-----Strings-----")
 
-num1 = 8.2589116
-num2 = 95.7895698
+greeting = "Welcome!" #this is storing value
+print(greeting) #returns the stored value above
 
-# this format uses the semicolon and places wanted to show, also notice the ' f ' changing the output as well
-print('num 1 is {0:.3} and num 2 is {1:.3}'.format(num1, num2))
-print('num 1 is {0:.3f} and num 2 is {1:.3f}'.format(num1, num2))
+name = input("What's your name? ") # this function prompts the user
+print("Hi " + name + "!")
+age = input("How old are you? ")
+print("You are " + age + " " + "year(s) old") # storing the user's input will give feedback
 
-#using F-STRINGS
-print(f'num 1 is {num1:.4f} and num 2 is {num2:.3f}')   #notice th  " f " used in the beiginning of the opening string and also to output after the decimal place
+# Lines 28 & 30 are examples of concatenating values, strings, etc.
 
+print("-----Lists-----") #collections of data types
+
+food = ["Wings", "What-A-Burger", "Donatos", "Surf&Turf", "SoCal Taco"] #storing more than one
+print(food)
+print(food[1]) # counting of a list starts at zero not 1
+print(food[-2]) # start from right to left
+
+spanishLine = "Buenos dias, amigo."
+print(spanishLine.split(' ')) #this will break the string into a list due to space argument passed in

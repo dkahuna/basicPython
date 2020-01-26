@@ -23,35 +23,3 @@ num = 88    #storing an integer
 num += 2   #this changes the value due to having the equal sign after the operation
 print(num)  #returns 90
 
-print("-----Strings-----")
-
-greeting = "Welcome!" #this is storing value
-print(greeting) #returns the stored value above
-
-name = input("What's your name? ") # this function prompts the user
-print("Hi " + name + "!")
-age = input("How old are you? ")
-print("You are " + age + " " + "year(s) old") # storing the user's input will give feedback
-
-# Lines 28 & 30 are examples of concatenating values, strings, etc.
-
-print("-----Lists-----") #collections of data types
-
-food = ["Wings", "What-A-Burger", "Donatos", "Surf&Turf", "SoCal Taco"] #storing more than one
-print(food)
-print(food[1]) # counting of a list starts at zero not 1
-print(food[-2]) # start from right to left
-
-spanishLine = "Buenos dias, amigo."
-print(spanishLine.split(' ')) #this will break the string into a list due to space argument passed in
-
-# Calculating the area of a circle
-radius = input('Enter the radius of your circle (m): ')
-area = 3.142 * int(radius)**2  # int() function is used to convert the user's input from string to integer
-print('The area of your circle is:', area) 
-
-# FORMAT METHOD
-chineseRat = 'Rat'
-chineseOx = 'Ox'
-
-print('This year 2020 is the year of the {0}, and next year will be the year of {1}'.format(chineseRat, chineseOx)) # <-- placing these here puts them in an index lineup
