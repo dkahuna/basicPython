@@ -48,4 +48,10 @@ print(spanishLine.split(' ')) #this will break the string into a list due to spa
 # Calculating the area of a circle
 radius = input('Enter the radius of your circle (m): ')
 area = 3.142 * int(radius)**2  # int() function is used to convert the user's input from string to integer
-print('The area of your circle is:', area)
+print('The area of your circle is:', area) 
+
+# FORMAT METHOD
+chineseRat = 'Rat'
+chineseOx = 'Ox'
+
+print('This year 2020 is the year of the {0}, and next year will be the year of {1}'.format(chineseRat, chineseOx)) # <-- placing these here puts them in an index lineup
