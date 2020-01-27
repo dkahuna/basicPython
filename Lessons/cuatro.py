@@ -10,8 +10,8 @@ elif age >= 21:
 
 drip = input('Do you love coffee? (y/n): ')
 
-if drip == "y":
+if drip != "y":     # notice that '!=' is for *not equal*
     # again this is a code block
-    print('Do you prefer it with cream&sugar or black?')
-else:
     print('I will make some hot tea for you then!')
+else:
+    print('Do you prefer it with cream&sugar or black?')
