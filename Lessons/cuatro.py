@@ -5,8 +5,9 @@ age = int(input('Enter your age: '))
 if age < 21:
     # code block / notice that 'indenting' is very IMPORTANT in Python
     print('You are not of legal age to purchase alcohol.')
-elif age >= 21:
+elif age >= 21:  # this can be used multiple times for many conditions
     print('You are able to purchase alcohol at this establishment.')
+# note that "else" is used more for default cases
 
 drip = input('Do you love coffee? (y/n): ')
 
