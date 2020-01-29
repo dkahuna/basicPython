@@ -11,6 +11,8 @@ while num < age:
         continue
     if num % 2 == 0:            #practicing a conditional statement within the loop
         print(num)
-    if num >= 9:
+    if num >= 10:
         break          #this here is to stop the 'while loop' from running after a condition is met
     num += 1
+
+    print("hi")
