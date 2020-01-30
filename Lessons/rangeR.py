@@ -7,10 +7,13 @@
 for spot in range(8):
     print(spot)
 
-print("______")
+print("--- Lines 13&14 ---")
 
 # passing more than one in the argument will give it a starting point but same thing occurs with not printing the end point
 for place in range(5, 13):
     print(place)
 
-# a third argument can be passed thru for 
+print("----- Lines 18&19 ------")
+# a third argument can be passed thru for stepping thru in pattern
+for increments in range(0,100,10):
+    print(increments)
