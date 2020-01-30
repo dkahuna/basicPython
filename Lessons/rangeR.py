@@ -17,3 +17,10 @@ print("----- Lines 18&19 ------")
 # a third argument can be passed thru for stepping thru in pattern
 for increments in range(0,100,10):
     print(increments)
+
+print("--- Lines 22 thru 25 ---")
+# printing with index
+burgers = ['beef', 'chicken', 'veg', 'supreme', 'double']
+
+for burger in range(len(burgers)):
+    print(burger, burgers[burger])
