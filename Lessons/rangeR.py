@@ -18,9 +18,14 @@ print("----- Lines 18&19 ------")
 for increments in range(0,100,10):
     print(increments)
 
-print("--- Lines 22 thru 25 ---")
+print("--- Lines 23 thru 26 ---")
 # printing with index
 burgers = ['beef', 'chicken', 'veg', 'supreme', 'double']
 
 for burger in range(len(burgers)):
+    print(burger, burgers[burger])
+
+print("--starting point at end of list--")
+# this next block will print counting backwards but also including what should be exclusive
+for burger in range(len(burgers)-1, -1, -1):
     print(burger, burgers[burger])
