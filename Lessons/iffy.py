@@ -19,3 +19,6 @@ else:
     
 
 #adding a comment for a test
+#used the command line, "nano [file name]" to make this edit within the 
+#terminal
+#second attempt with the "nano ___" command like above
