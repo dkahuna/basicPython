@@ -22,3 +22,4 @@ else:
 #used the command line, "nano [file name]" to make this edit within the 
 #terminal
 #second attempt with the "nano ___" command like above
+#testing of the new SSH key but with existing projects
