@@ -16,3 +16,6 @@ if drip != "y":     # notice that '!=' is for *not equal*
     print('I will make some hot tea for you then!')
 else:
     print('Do you prefer it with cream&sugar or black?')
+    
+
+#adding a comment for a test
