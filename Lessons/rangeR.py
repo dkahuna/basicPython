@@ -29,5 +29,3 @@ print("--starting point at end of list--")
 # this next block will print counting backwards but also including what should be exclusive
 for burger in range(len(burgers)-1, -1, -1):
     print(burger, burgers[burger])
-    break
-

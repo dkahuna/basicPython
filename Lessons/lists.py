@@ -14,8 +14,8 @@ print("-----Lists-----") #collections of data types
 
 food = ["Wings", "What-A-Burger", "Donatos", "Surf&Turf", "SoCal Taco"] #storing more than one
 print(food)
-print(food[1]) # counting of a list starts at zero not 1
-print(food[-2]) # start from right to left
+print(food[0]) # counting of a list starts at zero not 1
+print(food[-1]) # start from right to left
 
 spanishLine = "Buenos dias, amigo."
 print(spanishLine.split(' ')) #this will break the string into a list due to space argument passed in
