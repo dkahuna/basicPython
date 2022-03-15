@@ -15,3 +15,12 @@ for car in cars:
             print(f'{car} was my first motorcycle')
     else:
             print(f'{car} was one of the many vehicles I\'ve owned.')
+
+# working a for loop with a string of printing each index and letter
+fruit = 'banana'
+index = 0
+
+while index < len(fruit) :
+    letter = fruit[index]
+    print(index, letter)
+    index = index + 1
