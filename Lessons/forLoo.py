@@ -16,7 +16,7 @@ for car in cars:
     else:
             print(f'{car} was one of the many vehicles I\'ve owned.')
 
-# working a for loop with a string of printing each index and letter
+# working a whileloop with a string of printing each index and letter
 fruit = 'banana'
 index = 0
 
@@ -24,3 +24,19 @@ while index < len(fruit) :
     letter = fruit[index]
     print(index, letter)
     index = index + 1
+
+# same code above but using a for loop
+fruit = 'banana'
+letter = None
+for letter in fruit :
+    print(letter)
+
+# running a "count" using a for loop
+word = 'papaya'
+count = 0
+
+for letter in word :
+    if letter == 'a' :
+        count = count + 1
+
+print(count)
