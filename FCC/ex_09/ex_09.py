@@ -5,18 +5,20 @@ hand = open(fname)
 di = dict() #making an empty dictionary
 for line in hand :
     line = line.rstrip() #this line strips the white space on the right side per line of the file
-    # print(line)
     words = line.split() #this line splits the text file into an array
     # print(words)
     for wds in words:
-        print(wds)
-        if wds in di :
-            di[wds] = di[wds] +1
-            print('**Existing**')
-        else:
-            di[wds] = 1
-            print('**NEW**')
-        print(di[wds])
+            # idiom: retrieve/create/update counter
+            di[wds] = di.get(wds,0) + 1
 
-print(di)
+# print(di)
 
+#now to find the most common word
+largest = -1
+theWord = None
+for k,v in di.items() :
+    if v > largest :
+        largest = v
+        theWord = k #capture and remember the largest 'key'
+
+print('The most common word used is:', theWord, largest)
