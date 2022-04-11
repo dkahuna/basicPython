@@ -52,3 +52,4 @@ while True:
 
 # calling the function - line 34
 ninja_Roll_Call(ninja_Rank)
+print(ninja_Rank)

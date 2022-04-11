@@ -18,4 +18,6 @@ print(food[0]) # counting of a list starts at zero not 1
 print(food[-1]) # start from right to left
 
 spanishLine = "Buenos dias, amigo."
-print(spanishLine.split(' ')) #this will break the string into a list due to space argument passed in
+words = spanishLine.split(' ')
+for palabra in words:
+    print(palabra)
