@@ -16,10 +16,13 @@
 
 print("========Page 46 Python book==========")
 
-def print_seconds_per_day(days):
+def convert_days_to_seconds(days):
     hours = days * 24
     minutes = hours * 60
     seconds = minutes * 60
-    print(seconds)
+    return seconds
 
-print_seconds_per_day(7)
+total_seconds = convert_days_to_seconds(7)
+milliseconds = total_seconds * 1000
+print(milliseconds)
+
