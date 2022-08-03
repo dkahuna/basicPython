@@ -25,4 +25,3 @@ def convert_days_to_seconds(days):
 total_seconds = convert_days_to_seconds(7)
 milliseconds = total_seconds * 1000
 print(milliseconds)
-
