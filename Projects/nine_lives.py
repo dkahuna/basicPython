@@ -30,11 +30,11 @@ difficulty = input('Choose difficulty (type 1, 2, or 3):\n 1 Easy\n 2 Normal\n 3
 difficulty = int(difficulty)
 
 if difficulty == 1:
-    lives = 12
+    lives = 7
 elif difficulty == 2:
-    lives = 9
-else:
     lives = 5
+else:
+    lives = 3
 
 
 while lives > 0:
