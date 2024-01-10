@@ -1,6 +1,6 @@
 print("-----Strings-----")
 
-greeting = "Welcome!" #this is storing value
+greeting = "Welcome!" #storing value 
 print(greeting) #returns the stored value above
 
 name = input("What's your name? ") # this function prompts the user
